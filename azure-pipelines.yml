@@ -38,7 +38,7 @@ steps:
       command: 'push'
       artifactoryConnection: 'JFrog Artifactory V2'
       targetDeployRepo: 'september-nuget-local'
-      pathToNupkg: '*.nupkg'
+      pathToNupkg: '/home/reddappag/myagent/_work/3/a/'
       collectBuildInfo: true
       buildName: '$(Build.DefinitionName)'
       buildNumber: '$(Build.BuildNumber)'
